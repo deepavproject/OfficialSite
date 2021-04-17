@@ -36,6 +36,7 @@ a:active, a:focus {outline:0;}
 /* 全体
 ------------------------------------------------------------*/
 #wrapper{
+  text-align: center;
 margin:0 auto;
 padding:0 1%;
 width:98%;
@@ -132,13 +133,22 @@ max-width:100%;
 height:auto;
 }
 
+#mainBanner .contact{
+max-width:100%;
+height:auto;
+margin:80px auto;
+text-align: center;
+}
+
 
 /**************************
 /* グリッド
 **************************/
 .gridWrapper{
-padding:10px 0 20px;
-overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding:10px 0 20px;
+  overflow: hidden;
 }
 
 * html .gridWrapper{height:1%;}
@@ -150,11 +160,14 @@ background:#fff;
 }
 
 .box{
-margin:0 5px;
+  max-width: 100%;
+  text-align: center;
+  margin:0 5px;
 }
 
 .box img{
 max-width:100%;
+padding: 10px 10px;
 height:auto;
 }
 
@@ -451,7 +464,7 @@ color:#333;
 	/* グリッド */
 	.grid{
 	float:left;
-	width:300px;
+	/*width:300px;*/
 	margin-left:20px;
 	}
 
