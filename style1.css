@@ -140,6 +140,38 @@ margin:80px auto;
 text-align: center;
 }
 
+/**************************
+/* text area
+**************************/
+#textarea{
+  margin:25px auto;
+  padding:0;
+  width:100%;
+  text-align: left;
+}
+
+#textarea .text1{
+  margin-top:30px;
+  font-size:50px;
+  font-weight:bold;
+}
+#textarea .text2{
+  margin-top: 13px;
+  font-size:20px;
+  font-weight:bold;
+}
+
+#textarea .text3{
+  margin-top:10px;
+  font-size:15px;
+}
+ur{
+  margin: 10pt 10pt;
+}
+li{
+  margin-top:3px;
+  font-size:20px;
+}
 
 /**************************
 /* グリッド
@@ -402,7 +434,7 @@ color:#333;
 	text-align: center;
 	_float:left;
 	font-size:13px;
-	width:185px;
+	width:231px;
 	height:45px;
 	padding-top:9px;
 	color:#333;
@@ -464,7 +496,7 @@ color:#333;
 	/* グリッド */
 	.grid{
 	float:left;
-	/*width:300px;*/
+	width:290px;
 	margin-left:20px;
 	}
 
