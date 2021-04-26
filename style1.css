@@ -658,6 +658,6 @@ color:#333;
 /* スマートフォン 縦(ポートレート) */
 @media only screen and (max-width:480px){
 	.grid{width:100%;}
-	.box img{max-width:100px;}
+	.box img{max-width:100%;}
 	#mainBanner h2,#mainBanner p{font-size:80%;}
 }
